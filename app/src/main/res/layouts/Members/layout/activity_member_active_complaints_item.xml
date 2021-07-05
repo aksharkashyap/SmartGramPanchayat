@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    app:cardBackgroundColor="#C6F8C8"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="1dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/id_member_complaint_tv_complaintID"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complaint ID"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/id_member_complaint_tv_applicantID"
+            android:layout_below="@+id/id_member_complaint_tv_complaintID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Applicant ID"
+            android:textSize="15sp"
+            android:layout_marginStart="8dp"
+            />
+
+        <TextView
+            android:id="@+id/id_member_complaint_tv_applicantName"
+            android:layout_below="@+id/id_member_complaint_tv_applicantID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Applicant Name"
+            android:textSize="15sp"
+            android:layout_marginStart="8dp"
+            />
+
+        <TextView
+            android:id="@+id/id_member_complaint_tv_department"
+            android:layout_below="@+id/id_member_complaint_tv_applicantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department"
+            android:textSize="15sp"
+            android:layout_marginStart="8dp"
+            />
+
+        <TextView
+            android:id="@+id/id_member_complaint_tv_complaintMSG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_member_complaint_tv_department"
+            android:layout_marginStart="8dp"
+            android:text="Complaint"
+            android:textSize="15sp" />
+
+
+
+        <TextView
+            android:id="@+id/id_member_complaint_tv_complaintDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_member_complaint_tv_complaintMSG"
+            android:layout_marginStart="8dp"
+            android:text="Complaint Date"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/id_member_complaint_tv_complaintStatusDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_member_complaint_tv_complaintDate"
+            android:layout_marginStart="8dp"
+            android:text="Status Date"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/id_member_complaint_tv_previousRemarks"
+            android:layout_below="@+id/id_member_complaint_tv_complaintStatusDate"
+            android:text="Remarks"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:id="@+id/id_member_complaint_et_headRemarks"
+            android:layout_below="@+id/id_member_complaint_tv_previousRemarks"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:hint="Write Remarks"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/id_member_complaint_btn_submitRemarks"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="147dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:text="Send remarks"
+            android:textColor="#fff"/>
+
+
+        <ImageView
+            android:id="@+id/id_member_complaint_iv_close_issue_img"
+            android:src="@drawable/icon_close"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

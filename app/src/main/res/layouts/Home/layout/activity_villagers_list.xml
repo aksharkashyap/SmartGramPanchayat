@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/id_home_villagerList_layout_txt_main"
+        android:text="There are no villagers in the village!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:visibility="gone" />
+
+
+    <FrameLayout
+        android:id="@+id/id_villagersList_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="myNoteTag">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/id_villagersList_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:scrollbars="vertical" />
+
+    </FrameLayout>
+
+</LinearLayout>

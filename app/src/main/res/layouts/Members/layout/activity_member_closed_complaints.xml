@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainactivity_layout"
+    >
+
+    <TextView
+        android:id="@+id/id_member_closedComplaintMain_txt_main"
+        android:text="There are no closed complaints!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/id_member_closedComplaintMain_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

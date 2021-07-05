@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainactivity_layout"
+    >
+
+    <TextView
+        android:id="@+id/id_admin_validate_new_user_txt_main"
+        android:text="All users have been verified"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/id_admin_validate_new_user_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        android:scrollbars="vertical" />
+
+
+</RelativeLayout>

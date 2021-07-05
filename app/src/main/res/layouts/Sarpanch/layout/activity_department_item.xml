@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    app:cardBackgroundColor="#C6F8C8"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_margin="1dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/id_sarpanch_tv_departmentName"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department Name"
+            android:textColor="@android:color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/id_sarpanch_tv_departmentID"
+            android:layout_below="@+id/id_sarpanch_tv_departmentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department ID"
+            android:layout_marginTop="8dp"
+            android:textSize="10dp"
+            android:layout_marginStart="8dp"
+            />
+
+        <TextView
+            android:id="@+id/id_sarpanch_tv_departmentHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_sarpanch_tv_departmentID"
+            android:layout_marginStart="8dp"
+            android:text="Department Head"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:id="@+id/id_sarpanch_iv_department_delete_img"
+            android:src="@drawable/delete"
+            android:layout_alignParentRight="true"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentBottom="true"/>
+
+        <ImageView
+
+            android:id="@+id/id_sarpanch_iv_department_update_img"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="5dp"
+
+            android:layout_marginRight="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/id_sarpanch_iv_department_delete_img"
+            android:src="@drawable/icon_update" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
