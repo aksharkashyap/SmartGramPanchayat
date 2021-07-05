@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792120032462",
+    "project_id": "smart-gram-panchayat",
+    "storage_bucket": "smart-gram-panchayat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792120032462:android:f27bea1fc5eafcedfae49f",
+        "android_client_info": {
+          "package_name": "com.ok.smartgrampanchayat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792120032462-bv2u4dupgnogr9ubulvoajgh5ov0bmj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRcPLDoyVs3c-cPyg9hm_2PcPW9EGl-GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792120032462-bv2u4dupgnogr9ubulvoajgh5ov0bmj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
