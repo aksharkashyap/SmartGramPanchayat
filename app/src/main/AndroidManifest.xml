@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ok.Home">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.SmartGramPanchayat">
+
+        <activity android:name=".LaunchingPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"></activity>
+
+        <activity android:name="com.ok.Sarpanch.SarpanchHome"></activity>
+        <activity android:name="com.ok.Members.MemberHome"></activity>
+        <activity android:name="com.ok.Villagers.VillagerHome"></activity>
+
+        <activity android:name="com.ok.Login.UserLogin"></activity>
+        <activity android:name="com.ok.Login.UserSignup"></activity>
+        <activity android:name="com.ok.Login.UserForgetPassword"></activity>
+
+        <activity android:name=".MemberList.MembersList"></activity>
+        <activity android:name=".VillagersList"></activity>
+        <activity android:name=".DisplayUserProfile"></activity>
+        <activity android:name=".UserDetailsShow"></activity>
+        <activity android:name=".UserDetailsUpdate"></activity>
+
+        <activity android:name="com.ok.Sarpanch.AddMembers"></activity>
+        <activity android:name=".SarpanchContactDetails"></activity>
+
+        <activity android:name="com.ok.Sarpanch.Department.Department"></activity>
+        <activity android:name="com.ok.Sarpanch.Department.AddDepartment"></activity>
+        <activity android:name="com.ok.Sarpanch.Department.UpdateDepartment"></activity>
+
+        <activity android:name="com.ok.Sarpanch.ManageServices.Services"></activity>
+        <activity android:name="com.ok.Sarpanch.ManageServices.AddService"></activity>
+        <activity android:name="com.ok.Sarpanch.ManageServices.UpdateService"></activity>
+
+        <activity android:name="com.ok.Admin.AdminMain"></activity>
+        <activity android:name="com.ok.Admin.UserValidation.ValidateNewUser"></activity>
+        <activity android:name="com.ok.Admin.VerifyAdmin"></activity>
+
+        <activity android:name="com.ok.Villagers.Complaints.MakeComplaint"></activity>
+        <activity android:name="com.ok.Villagers.Complaints.ManageComplaint"></activity>
+
+        <activity android:name="com.ok.Members.Complaints.ActiveComplaints"></activity>
+        <activity android:name="com.ok.Members.Complaints.ClosedComplaints"></activity>
+        <activity android:name="com.ok.Villagers.Services.MyServices"></activity>
+        <activity android:name="com.ok.Villagers.Services.RequestService"></activity>
+
+        <activity android:name="com.ok.Members.ManageServiceRequests.ServiceTakers"></activity>
+        <activity android:name="com.ok.Members.ManageServiceRequests.ServiceRequests"></activity>
+
+    </application>
+
+</manifest>
